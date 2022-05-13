@@ -36,8 +36,8 @@
     }
 }
 
-@media (max-width: 360px {
+@media (max-width: 360px) {
     .cabecalho .titulo {
-        font-size: ;
+        font-size: 19px;
     }
-})
+}
