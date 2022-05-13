@@ -1,3 +1,22 @@
-.titulo {
+body {
+    font-family: 'ssf4', Courier, monospace;
+    background: var(--cor-secundaria);
+}
+
+body::before {
+    content: '';
+    background-image: url("../imagens/1cYrMYF.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho .titulo {
     
 }
